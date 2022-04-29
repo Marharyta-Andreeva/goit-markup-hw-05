@@ -404,7 +404,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color var(--transition-options);
+    transition: background-color var(--transition-options), background-color var(--accent-color);
 }
 
 .team-soc-icon {
@@ -414,7 +414,7 @@ img {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-    transition: background-color var(--accent-color);
+    background-color: var(--accent-color);
 }
 
 .team-soc-link:hover .team-soc-icon {
